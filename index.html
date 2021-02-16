@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbox</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Kurale&display=swap&family=Ruda&display=swap&family=Open+Sans+Condensed:wght@300&display=swap&family=Marcellus&family=Mulish:wght@300;400;500;600;700;800;900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jquery.fancybox.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+        <h1 class="logo"><span class="m_logo">M</span>box</h1>
+        <button class="menu-button"></button>
+        <nav class="menu">
+            
+            <a href="#" class="active">Главная</a>
+            <a href="#popular">Популярные</a>
+            <a href="#genres">Категории</a>
+            <a href="#actors_directors">Актеры</a>
+        </nav>
+
+        
+        </div>
+
+        <div class="anons">
+            <h1 class="anons_title">Кто я</h1>
+            <span>2014</span><span class="old">18+</span><span class="vote"><i class="fas fa-star"></i>7,4</span>
+            <p class="anons_text">Бенджамин – молодой компьютерный гений.
+                 С детства он мечтает стать супергероем из комиксов и покорить мир. Но в реальном мире он — никто. 
+                 Его жизнь неожиданно меняется, когда он встречает свою полную противоположность – харизматичного Макса. </p>
+            <button class="anons_watch" data-fancybox data-src="#hidden-content-1" href="javascript:;"><i class="fas fa-play"></i> Смотреть</button>
+            <div style="display: none;" class="playerr" id="hidden-content-1">
+                <iframe src="https://zedfilm.ru/605961" frameborder="0" allowfullscreen></iframe>  
+            </div> 
+
+            <button class="anons_info">Больше информации</button>
+        </div>
+    </header> 
+    <section class="categores slide-2" id="popular">
+        <div class="conteriner">
+            <h3 class="title_show">Популярные фильмы</h3>
+            <div class="swiper-container movies">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                <div class="swiper-slide">
+                    <a data-fancybox data-src="#hidden-content" href="javascript:;">
+                        <img src="img/Movies/1.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content" class="playerr">
+                        <iframe  src="https://zedfilm.ru/926922" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide">
+                    
+                    <a data-fancybox data-src="#hidden-content-2" href="javascript:;">
+                        <img src="img/Movies/2.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-2" class="playerr">
+                        <iframe  src="https://zedfilm.ru/885894" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a data-fancybox data-src="#hidden-content-3" href="javascript:;">
+                        <img src="img/Movies/3.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-3" class="playerr">
+                        <iframe  src="https://zedfilm.ru/697141" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    
+                    <a data-fancybox data-src="#hidden-content-4" href="javascript:;">
+                        <img src="img/Movies/4.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-4" class="playerr">
+                        <iframe  src="https://zedfilm.ru/457064" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    
+                    <a data-fancybox data-src="#hidden-content-5" href="javascript:;">
+                        <img src="img/Movies/5.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-5" class="playerr">
+                        <iframe src="https://zedfilm.ru/1009732" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    
+                    <a data-fancybox data-src="#hidden-content-6" href="javascript:;">
+                        <img src="img/Movies/6.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-6" class="playerr">
+                        <iframe src="https://zedfilm.ru/755711" style="border-width:0px" allowfullscreen></iframe> 
+                    </div>
+                </div>
+
+                </div>
+              </div>
+        </div>
+        <button class="next-1 swiper-button-next"></button>
+    </section>
+    <section class="categores slid-1">
+        <div class="conteriner">
+            <h3 class="title_show">Популярные мультфильм</h3>
+            <div class="swiper-container shows">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                <div class="swiper-slide">
+                    
+                    <a data-fancybox data-src="#hidden-content-7" href="javascript:;">
+                        <img src="img/Shows/1.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-7" class="playerr">
+                        <iframe src="https://zedfilm.ru/991513" style="border-width:0px" allowfullscreen></iframe>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    
+                    <a data-fancybox data-src="#hidden-content-8" href="javascript:;">
+                        <img src="img/Shows/2.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-8" class="playerr">
+                        <iframe src="https://zedfilm.ru/993751" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a data-fancybox data-src="#hidden-content-10" href="javascript:;">
+                        <img src="img/Shows/3.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-10" class="playerr">
+                        <iframe src="https://zedfilm.ru/990532" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a data-fancybox data-src="#hidden-content-11" href="javascript:;">
+                        <img src="img/Shows/4.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-11" class="playerr">
+                        <iframe src="https://zedfilm.ru/955352" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a data-fancybox data-src="#hidden-content-12" href="javascript:;">
+                        <img src="img/Shows/5.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-12" class="playerr">
+                        <iframe src="https://zedfilm.ru/998848" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <a data-fancybox data-src="#hidden-content-13" href="javascript:;">
+                        <img src="img/Shows/6.jpg" width="170px" height="270px" alt="">
+                    </a>
+                    <div style="display: none;" id="hidden-content-13" class="playerr">
+                        <iframe src="https://zedfilm.ru/880840" style="border-width:0px" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                </div>
+              </div>
+        </div>
+        <button class="next swiper-button-next"></button>
+    </section>
+   
+
+    <section class="genres" id="genres">
+        <div class="conteriner">
+            <div class="gener">
+            <h3 class="title_shows">Категория</h3>
+            <div class="popular">
+                <div class="popular_top">
+                    <div data-fancybox data-src="#hidden-content-14" class="popular_item romance"><div class="popular_con"><img src="img/generes/1.svg" height="80px" width="80px" alt=""><p class="text_popular">Мелодрамы</p></div></div>
+                    
+                    <div id="hidden-content-14" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                    
+                        <div class="generes_content">
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-1" href="javascript:;">
+                                    <img src="img/Romance/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-1" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/992277" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-2" href="javascript:;">
+                                    <img src="img/Romance/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-2" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/970897" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-3" href="javascript:;">
+                                    <img src="img/Romance/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-3" class="playerr">
+                                    <iframe width="1200" height="600" src="https://zedfilm.ru/997708" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-4" href="javascript:;">
+                                    <img src="img/Romance/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-4" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/939023" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-5" href="javascript:;">
+                                    <img src="img/Romance/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-5" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/984183" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-6" href="javascript:;">
+                                    <img src="img/Romance/6.png" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-6" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/978380" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-7" href="javascript:;">
+                                    <img src="img/Romance/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-7" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/935931" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-8" href="javascript:;">
+                                    <img src="img/Romance/8.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-8" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/823788" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-9" href="javascript:;">
+                                    <img src="img/Romance/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-9" class="playerr">
+                                    <iframe src="https://zedfilm.ru/886664" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-10" href="javascript:;">
+                                    <img src="img/Romance/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-10" class="playerr">
+                                    <iframe src="https://zedfilm.ru/876989" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-11" href="javascript:;">
+                                    <img src="img/Romance/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-11" class="playerr">
+                                    <iframe src="https://zedfilm.ru/952227" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-12" href="javascript:;">
+                                    <img src="img/Romance/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-12" class="playerr">
+                                    <iframe src="https://zedfilm.ru/908735" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-13" href="javascript:;">
+                                    <img src="img/Romance/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-13" class="playerr">
+                                    <iframe src="https://zedfilm.ru/864725" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-14-14" href="javascript:;">
+                                    <img src="img/Romance/14.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-14-14" class="playerr">
+                                    <iframe src="https://zedfilm.ru/861248" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+                    </div>
+
+                    <div class="popular_item drama" data-fancybox data-src="#hidden-content-15" ><div class="popular_con"><img src="img/generes/2.svg" height="80px" width="80px" alt=""><p class="text_popular">Драмы</p></div></div>
+                    
+                    <div id="hidden-content-15" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                    
+                        <div class="generes_content">
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-1" href="javascript:;">
+                                    <img src="img/Movies/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-1" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1009732" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-2" href="javascript:;">
+                                    <img src="img/Drama/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-2" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/990322" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-3" href="javascript:;">
+                                    <img src="img/Drama/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-3" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/942757" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                           
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-4" href="javascript:;">
+                                    <img src="img/Drama/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-4" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/961281" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-5" href="javascript:;">
+                                    <img src="img/Drama/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-5" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/940875" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-6" href="javascript:;">
+                                    <img src="img/Drama/6.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-6" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/941475" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-7" href="javascript:;">
+                                    <img src="img/Drama/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-7" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/991171" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-8" href="javascript:;">
+                                    <img src="img/Drama/8.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-8" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/979979" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-9" href="javascript:;">
+                                    <img src="img/Drama/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-9" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/989026" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-10" href="javascript:;">
+                                    <img src="img/Drama/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-10" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/890729" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-11" href="javascript:;">
+                                    <img src="img/Drama/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-11" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/900498" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-12" href="javascript:;">
+                                    <img src="img/Drama/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-12" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/876296" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-13" href="javascript:;">
+                                    <img src="img/Drama/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-13" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/929984" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+
+                                <a data-fancybox data-src="#hidden-content-15-14" href="javascript:;">
+                                    <img src="img/Drama/14.jpeg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-15-14" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/917074" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                             
+                    </div>
+                    
+                    <div class="popular_item historical" data-fancybox data-src="#hidden-content-16" ><div class="popular_con"><img src="img/generes/3.svg" height="80px" width="80px" alt=""><p class="text_popular">Триллеры</p></div></div>
+                    
+                    <div id="hidden-content-16" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                    <div class="generes_content">
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-1" href="javascript:;">
+                                <img src="img/thriller/1.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-1" class="playerr">
+                                <iframe  src="https://zedfilm.ru/997479" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-2" href="javascript:;">
+                                <img src="img/thriller/2.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-2" class="playerr">
+                                <iframe  src="https://zedfilm.ru/939143" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-3" href="javascript:;">
+                                <img src="img/thriller/3.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-3" class="playerr">
+                                <iframe  src="https://zedfilm.ru/996227" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-4" href="javascript:;">
+                                <img src="img/thriller/4.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-4" class="playerr">
+                                <iframe  src="https://zedfilm.ru/968845" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-5" href="javascript:;">
+                                <img src="img/thriller/5.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-5" class="playerr">
+                                <iframe  src="https://zedfilm.ru/944824" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-6" href="javascript:;">
+                                <img src="img/thriller/6.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-6" class="playerr">
+                                <iframe  src="https://zedfilm.ru/968431" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-7" href="javascript:;">
+                                <img src="img/thriller/7.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-7" class="playerr">
+                                <iframe  src="https://zedfilm.ru/952144" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-8" href="javascript:;">
+                                <img src="img/thriller/8.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-8" class="playerr">
+                                <iframe  src="https://zedfilm.ru/901146" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-9" href="javascript:;">
+                                <img src="img/thriller/9.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-9" class="playerr">
+                                <iframe  src="https://zedfilm.ru/942932" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-10" href="javascript:;">
+                                <img src="img/thriller/10.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-10" class="playerr">
+                                <iframe  src="https://zedfilm.ru/942149" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-11" href="javascript:;">
+                                <img src="img/thriller/11.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-11" class="playerr">
+                                <iframe  src="https://zedfilm.ru/944966" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-12" href="javascript:;">
+                                <img src="img/thriller/12.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-12" class="playerr">
+                                <iframe  src="https://zedfilm.ru/926380" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-13" href="javascript:;">
+                                <img src="img/thriller/13.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-13" class="playerr">
+                                <iframe  src="https://zedfilm.ru/900003" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                        <div class="romance_item">
+
+                            <a data-fancybox data-src="#hidden-content-16-14" href="javascript:;">
+                                <img src="img/thriller/14.jpg" width="170px" height="270px" alt="">
+                            </a>
+                            <div style="display: none;" id="hidden-content-16-14" class="playerr">
+                                <iframe  src="https://zedfilm.ru/861792" style="border-width:0px" allowfullscreen></iframe>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="popular_item action" data-fancybox data-src="#hidden-content-17" ><div class="popular_con"><img src="img/generes/4.svg" height="80px" width="80px" alt=""><p class="text_popular">Боевики</p></div></div>
+                    
+                    <div id="hidden-content-17" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                        <div class="generes_content">
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-1" href="javascript:;">
+                                    <img src="img/action/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-1" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1009693" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-2" href="javascript:;">
+                                    <img src="img/action/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-2" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1006047" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-3" href="javascript:;">
+                                    <img src="img/action/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-3" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/966586" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-4" href="javascript:;">
+                                    <img src="img/action/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-4" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/950589" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-5" href="javascript:;">
+                                    <img src="img/action/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-5" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/978862" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-6" href="javascript:;">
+                                    <img src="img/Movies/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-6" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/926922" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-7" href="javascript:;">
+                                    <img src="img/action/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-7" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/966532" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-8" href="javascript:;">
+                                    <img src="img/Movies/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-8" class="playerr">
+                                    <iframe src="https://zedfilm.ru/885894" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-9" href="javascript:;">
+                                    <img src="img/action/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-9" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/938643" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-10" href="javascript:;">
+                                    <img src="img/action/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-10" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/891451" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-11" href="javascript:;">
+                                    <img src="img/action/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-11" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/917142" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-12" href="javascript:;">
+                                    <img src="img/action/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-12" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/902103" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-13" href="javascript:;">
+                                    <img src="img/action/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-13" class="playerr">
+                                    <iframe   src="https://zedfilm.ru/883895" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-17-14" href="javascript:;">
+                                    <img src="img/action/14.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-17-14" class="playerr">
+                                    <iframe   src="https://zedfilm.ru/939936" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="popular_bottom"> 
+
+                    <div class="popular_item sci-fi" data-fancybox data-src="#hidden-content-18" ><div class="popular_con"><img src="img/generes/5.svg" height="80px" width="80px" alt=""><p class="text_popular">Фантастика</p></div></div>
+                    
+                    <div id="hidden-content-18" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                        <div class="generes_content">
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-1" href="javascript:;">
+                                    <img src="img/fentezi/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-1" class="playerr">
+                                    <iframe src="https://zedfilm.ru/1011614" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-2" href="javascript:;">
+                                    <img src="img/fentezi/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-2" class="playerr">
+                                    <iframe src="https://zedfilm.ru/1003984" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-3" href="javascript:;">
+                                    <img src="img/fentezi/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-3" class="playerr">
+                                    <iframe src="https://zedfilm.ru/950675" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-4" href="javascript:;">
+                                    <img src="img/fentezi/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-4" class="playerr">
+                                    <iframe src="https://zedfilm.ru/979903" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-5" href="javascript:;">
+                                    <img src="img/fentezi/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-5" class="playerr">
+                                    <iframe src="https://zedfilm.ru/981225" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-6" href="javascript:;">
+                                    <img src="img/fentezi/6.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-6" class="playerr">
+                                    <iframe src="https://zedfilm.ru/987555" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-7" href="javascript:;">
+                                    <img src="img/fentezi/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-7" class="playerr">
+                                    <iframe src="https://zedfilm.ru/1001442" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-8" href="javascript:;">
+                                    <img src="img/fentezi/8.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-8" class="playerr">
+                                    <iframe src="https://zedfilm.ru/877819" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-9" href="javascript:;">
+                                    <img src="img/fentezi/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-9" class="playerr">
+                                    <iframe src="https://zedfilm.ru/993250" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-10" href="javascript:;">
+                                    <img src="img/fentezi/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-10" class="playerr">
+                                    <iframe src="https://zedfilm.ru/926382" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-11" href="javascript:;">
+                                    <img src="img/fentezi/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-11" class="playerr">
+                                    <iframe src="https://zedfilm.ru/870216" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-12" href="javascript:;">
+                                    <img src="img/fentezi/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-12" class="playerr">
+                                    <iframe src="https://zedfilm.ru/906968" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-13" href="javascript:;">
+                                    <img src="img/fentezi/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-13" class="playerr">
+                                    <iframe src="https://zedfilm.ru/821021" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-14" href="javascript:;">
+                                    <img src="img/fentezi/14.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-14" class="playerr">
+                                    <iframe src="https://zedfilm.ru/823666" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-15" href="javascript:;">
+                                    <img src="img/fentezi/15.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-15" class="playerr">
+                                    <iframe src="https://zedfilm.ru/834621" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-18-16" href="javascript:;">
+                                    <img src="img/fentezi/16.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-18-16" class="playerr">
+                                    <iframe src="https://zedfilm.ru/859454" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="popular_item horror" data-fancybox data-src="#hidden-content-19" ><div class="popular_con"><img src="img/generes/6.svg" height="80px" width="80px" alt=""><p class="text_popular">Ужасы</p></div></div>
+                    
+                    <div id="hidden-content-19" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                        <div class="generes_content">
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-1" href="javascript:;">
+                                    <img src="img/horror/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-1" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/972511" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-2" href="javascript:;">
+                                    <img src="img/horror/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-2" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/997379" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-3" href="javascript:;">
+                                    <img src="img/horror/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-3" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/995182" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-4" href="javascript:;">
+                                    <img src="img/horror/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-4" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/988560" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-5" href="javascript:;">
+                                    <img src="img/horror/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-5" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/993039" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-6" href="javascript:;">
+                                    <img src="img/horror/6.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-6" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/993159" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-7" href="javascript:;">
+                                    <img src="img/horror/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-7" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/989650" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-8" href="javascript:;">
+                                    <img src="img/horror/8.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-8" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/886766" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-9" href="javascript:;">
+                                    <img src="img/horror/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-9" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/802158" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-10" href="javascript:;">
+                                    <img src="img/horror/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-10" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/851501" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-11" href="javascript:;">
+                                    <img src="img/horror/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-11" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/850218" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-12" href="javascript:;">
+                                    <img src="img/horror/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-12" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/844348" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-19-13" href="javascript:;">
+                                    <img src="img/horror/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-19-13" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/875736" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="popular_item comedy" data-fancybox data-src="#hidden-content-20"><div class="popular_con"><img src="img/generes/7.svg" height="80px" width="80px" alt=""><p class="text_popular">Комедии</p></div></div>
+                    
+                    <div id="hidden-content-20" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                        <div class="generes_content">
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-1" href="javascript:;">
+                                    <img src="img/comedy/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-1" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1004153" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-2" href="javascript:;">
+                                    <img src="img/comedy/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-2" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/991201" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-3" href="javascript:;">
+                                    <img src="img/comedy/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-3" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1005822" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-4" href="javascript:;">
+                                    <img src="img/comedy/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-4" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1009412" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-5" href="javascript:;">
+                                    <img src="img/comedy/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-5" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/962174" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-6" href="javascript:;">
+                                    <img src="img/comedy/6.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-6" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/991892" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-7" href="javascript:;">
+                                    <img src="img/comedy/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-7" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/976259" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-8" href="javascript:;">
+                                    <img src="img/comedy/8.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-8" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/968600" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-9" href="javascript:;">
+                                    <img src="img/comedy/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-9" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/983066" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-10" href="javascript:;">
+                                    <img src="img/comedy/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-10" class="playerr">
+                                    <iframe   src="https://zedfilm.ru/917431" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-11" href="javascript:;">
+                                    <img src="img/comedy/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-11" class="playerr">
+                                    <iframe src="https://zedfilm.ru/941481" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-12" href="javascript:;">
+                                    <img src="img/comedy/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-12" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/885324" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-13" href="javascript:;">
+                                    <img src="img/comedy/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-13" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/880842" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-20-14" href="javascript:;">
+                                    <img src="img/comedy/14.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-20-14" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/792358" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="popular_item documentary" data-fancybox data-src="#hidden-content-21" ><div class="popular_con"><img src="img/generes/8.svg" height="80px" width="80px" alt=""><p class="text_popular">Приключения</p></div></div>
+                
+                    <div id="hidden-content-21" class="romance-content" style="display: none; width: 1200px; height: 600px;">
+                        <div class="generes_content">
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-1" href="javascript:;">
+                                    <img src="img/adventures/1.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-1" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/1009612" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-2" href="javascript:;">
+                                    <img src="img/adventures/2.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-2" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/937451" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-3" href="javascript:;">
+                                    <img src="img/adventures/3.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-3" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/978309" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-4" href="javascript:;">
+                                    <img src="img/adventures/4.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-4" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/925662" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-5" href="javascript:;">
+                                    <img src="img/adventures/5.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-5" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/981963" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-6" href="javascript:;">
+                                    <img src="img/adventures/6.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-6" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/978181" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-7" href="javascript:;">
+                                    <img src="img/adventures/7.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-7" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/880980" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-8" href="javascript:;">
+                                    <img src="img/adventures/8.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-8" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/917378" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-9" href="javascript:;">
+                                    <img src="img/adventures/9.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-9" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/890733" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-10" href="javascript:;">
+                                    <img src="img/adventures/10.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-10" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/926930" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-11" href="javascript:;">
+                                    <img src="img/adventures/11.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-11" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/892803" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-12" href="javascript:;">
+                                    <img src="img/adventures/12.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-12" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/838641" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-13" href="javascript:;">
+                                    <img src="img/adventures/13.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-13" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/859911" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-14" href="javascript:;">
+                                    <img src="img/adventures/14.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-14" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/861728" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                            <div class="romance_item">
+    
+                                <a data-fancybox data-src="#hidden-content-21-15" href="javascript:;">
+                                    <img src="img/adventures/15.jpg" width="170px" height="270px" alt="">
+                                </a>
+                                <div style="display: none;" id="hidden-content-21-15" class="playerr">
+                                    <iframe  src="https://zedfilm.ru/846193" style="border-width:0px" allowfullscreen></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="actors_directors" id="actors_directors">
+        <div class="conteriner">
+            <h3 class="title_show">Популярные актеры</h3>
+            <div class="swiper-container actors">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/1141971/" target="_blank">
+                    <img src="img/actors/1.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Джои Кинг</h6></a>
+                </div>
+                <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/37859/" target="_blank">
+                    <img src="img/actors/2.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Леонардо ДиКаприо</h6></a>
+                </div>
+                <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/513/" target="_blank">
+                    <img src="img/actors/3.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Уилл Смит</h6></a>
+                </div>
+                <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/20866/" target="_blank">
+                    <img src="img/actors/4.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Анджелина Джоли</h6></a>
+                </div>
+                <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/10096/" target="_blank">
+                    <img src="img/actors/5.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Роберт Дауни мл.</h6></a>
+                </div>
+                <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/15545/" target="_blank">
+                    <img src="img/actors/6.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Роуэн Эткинсон</h6></a>
+                </div>
+                <div class="actors_item swiper-slide">
+                    <a href="https://www.kinopoisk.ru/name/21444/" target="_blank">
+                    <img src="img/actors/7.png" width="150px" height="150px" alt="">
+                    <h6 class="actor_item_title">Дженнифер Энистон</h6></a>
+                </div>
+                </div>
+
+                
+
+              </div>
+        </div>
+        <button class="actors_next swiper-button-next"></button>
+        
+    </section>
+
+    <section class="coming_soon"></section>
+
+
+    <footer class="footer">
+        <div class="foot_logo"><h1 class="footer_logo"><span class="m_logo">M</span>box by <a href="https://www.instagram.com/voskanyandav03/" target="_blank">David Voskanyan</a></h1>
+        </div>
+    </footer>
+</body>
+</html>
